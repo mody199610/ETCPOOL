@@ -1,0 +1,7 @@
+setx GPU_FORCE_64BIT_PTR 0
+setx GPU_MAX_HEAP_SIZE 100
+setx GPU_USE_SYNC_OBJECTS 1
+setx GPU_MAX_ALLOC_PERCENT 100
+setx GPU_SINGLE_ALLOC_PERCENT 100
+PhoenixMiner.exe -coin etc -pool etc.2miners.com:1010 -rvram 1 -wal 0x0263dcEE837bC9694298eEf8f814817d2f187762.1
+pause
